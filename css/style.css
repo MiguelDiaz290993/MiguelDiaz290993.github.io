@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Serif Ahom', serif;
+font-family: 'Oswald', sans-serif;
+background: rgba(36, 36, 149, 0.551);
+}
+.hero{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0, 213, 255, 0.347) 0%, rgba(0, 213, 255, 0.456) 21%, rgba(1, 195, 243, 0.57) 42%, rgba(1, 185, 236, 0.504) 53%, rgba(9, 9, 121, 0.547) 100%),url(../multimedia/328853527_9110578222348548_5461635841141909163_n.jpg); 
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.text-hero{
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-hero h1{
+    font-size: 60px;
+}
+.text-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.text-hero a{
+    text-decoration: none;
+    padding: 12px 15px;
+    background: linear-gradient(90deg, rgba(1, 195, 243, 0.452) 0%, rgba(0, 213, 255, 0.204) 0%, rgba(0, 213, 255, 0.193) 0%, rgba(169, 1, 236, 0.381) 0%, rgba(2, 0, 36, 0.401) 100%, rgba(9, 9, 121, 0.378) 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: white;
+}
+.text-hero a:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+}
+
+.contenedor,
+.wave-contenedor{
+    background: rgba(75, 75, 214, 0.759);
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.wave-contenedor img{
+    padding: 30px 30px;
+}
+.contenedor{
+    text-align: center;
+    padding: 80px 0;
+}
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo.left{
+    text-align: center;
+}
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+.website img{
+    width: 48%;
+}
+.website .contenedor-textos-main{
+    width: 40%;
+    text-align: center;
+}
+.parrafo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(1, 195, 243, 0.525);
+    background: linear-gradient(90deg, rgba(1, 195, 243, 0.452) 0%, rgba(0, 213, 255, 0.204) 0%, rgba(0, 213, 255, 0.193) 0%, rgba(169, 1, 236, 0.381) 0%, rgba(2, 0, 36, 0.401) 100%, rgba(9, 9, 121, 0.378) 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: white;
+}
+.cta:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+}
+.info{
+    color: white;
+    background: transparent;
+}
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 60%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    
+}
+.card:hover{
+    background-color: rgba(59, 112, 158, 0.663);
+}
+
+.card i{
+    margin: 30px 0 20px 0;
+    color: #91aacc;
+    font-size: 40px;
+}
+.card p{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.galeria{
+    background: transparent;
+}
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.galeria-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+}
+.last-section{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.last-section img{
+    padding: 35px;
+    width: 48%;
+}
+.last-section .contenedor-textos-main{
+    padding: 35px;
+    width: 40%;
+}
+.footer{
+    
+    color: white;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input{
+    background: transparent;
+    border: 0;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 20px 10px;
+}
+.input::placeholder{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="text"],
+input[type="email"]{
+    background: linear-gradient(90deg, rgba(1, 195, 243, 0.452) 0%, rgba(0, 213, 255, 0.204) 0%, rgba(0, 213, 255, 0.193) 0%, rgba(169, 1, 236, 0.381) 0%, rgba(2, 0, 36, 0.401) 100%, rgba(9, 9, 121, 0.378) 100%);
+    
+    border-radius: 8px;
+    
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+.form textarea{
+   
+    width: 100%;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, rgba(1, 195, 243, 0.452) 0%, rgba(0, 213, 255, 0.204) 0%, rgba(0, 213, 255, 0.193) 0%, rgba(169, 1, 236, 0.381) 0%, rgba(2, 0, 36, 0.401) 100%, rgba(9, 9, 121, 0.378) 100%);
+    
+    border-radius: 8px;
+    color: white;
+}
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+    background: linear-gradient(90deg, rgba(1, 195, 243, 0.452) 0%, rgba(0, 213, 255, 0.204) 0%, rgba(0, 213, 255, 0.193) 0%, rgba(169, 1, 236, 0.381) 0%, rgba(2, 0, 36, 0.401) 100%, rgba(9, 9, 121, 0.378) 100%);
+    
+    border-radius: 8px;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+    cursor: pointer;
+   
+}
+
+input[type="email"]:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+   
+}
+input[type="text"]:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+   
+}
+.form textarea:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+   
+}
+@media screen and (max-width:800px){
+    .text-hero h1{
+        text-align: center;
+        font-size: 50px
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .titulo.left{
+        text-align: center;
+    }
+    .info p{
+        text-align: center;
+    }
+    .website{
+        flex-direction:column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .website img{
+        width: 100%;
+    }
+    .website .contenedor-textos-main{
+        
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .galeria-cont>img{
+        width: 48%;
+    }
+    .last-section img{
+        width: 98%;
+    }
+    .last-section .contenedor-textos-main{
+        width: 98%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:400px){
+    .titulo,
+    .text-hero h1{
+        font-size: 30px;
+    }
+    .text-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .website.contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+    .galeria-cont>img{
+        width: 97%;
+    }
+    .card{
+        height: 380px;
+    }
+}
